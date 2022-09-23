@@ -1,0 +1,1349 @@
+/* map SVG부분 컬러 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.st0 {
+    opacity: 0.95;
+}
+
+.st1 {
+    fill: #009FF5; 
+    stroke: #CADCE0;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st2 {
+    fill: #59B3A7;
+    stroke: #EEE8A9;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st3 {
+    fill: #59B3A7;
+    stroke: #EEE8A9;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st4 {
+    fill: #0C2633;
+    stroke: #CADCE0;
+    stroke-width: 0;
+    stroke-miterlimit: 10;
+}
+
+.st5 {
+    fill: none;
+    stroke: #EBFCFF;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st6 {
+    fill: #FFFFFF;
+    stroke: #EBFCFF;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st7 {
+    fill: #F9BE19;
+}
+
+.st8 {
+    font-family: 'Jalnan';
+}
+
+.st9 {
+    font-size: 30px;
+}
+
+.st10 {
+    fill: #FFFFFF;
+}
+
+.st11 {
+    fill: #D461A8;
+    stroke: #CADCE0;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+}
+
+.st12 {
+    fill: #009FF5;
+    stroke: #CADCE0;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+}
+
+.st13 {
+    fill: #E75876;
+    stroke: #CADCE0;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st14 {
+    fill: #DBD7D8;
+    stroke: #CADCE0;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st15 {
+    fill: #EBFCFF;
+    stroke: #CADCE0;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st16 {
+    fill: url(#SVGID_1_);
+    stroke: #EBFCFF;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st17 {
+    fill: url(#SVGID_2_);
+    stroke: #CADCE0;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st18 {
+    fill: url(#SVGID_3_);
+    stroke: #CADCE0;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st19 {
+    fill: #009FF5;
+    stroke: #CADCE0;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st20 {
+    fill: #FFFFFF;
+    stroke: #CADCE0;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st21 {
+    fill: #CADCE0;
+    stroke: #CADCE0;
+    stroke-miterlimit: 10;
+}
+
+.st22 {
+    fill: #98A9B7;
+    stroke: #C7D8DC;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st23 {
+    fill: #D461A8;
+    stroke: #000607;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st24 {
+    fill: #195999;
+    stroke: #CADCE0;
+    stroke-miterlimit: 10;
+}
+
+.st25 {
+    fill: none;
+    stroke: #195999;
+    stroke-width: 0.75;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st26 {
+    fill: none;
+    stroke: #E75876;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st27 {
+    fill: none;
+    stroke: #185590;
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+}
+
+.st28 {
+    fill: none;
+    stroke: #E8F5FA;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st29 {
+    fill: #D85671;
+    stroke: #C7D8DC;
+    stroke-miterlimit: 10;
+}
+
+.st30 {
+    fill: #E0952C;
+    stroke: #E8F5FA;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st31 {
+    fill: none;
+    stroke: #C7D8DC;
+    stroke-miterlimit: 10;
+}
+
+.st32 {
+    fill: #C7D8DC;
+}
+
+.st33 {
+    fill: none;
+}
+
+.st34 {
+    fill: #C7D8DC;
+    stroke: #D85671;
+    stroke-miterlimit: 10;
+}
+
+.st35 {
+    fill: #E0952C;
+    stroke: #C7D8DC;
+    stroke-miterlimit: 10;
+}
+
+.st36 {
+    fill: #185590;
+    stroke: #C7D8DC;
+    stroke-miterlimit: 10;
+}
+
+.st37 {
+    fill: none;
+    stroke: #C7D8DC;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st38 {
+    fill: #FFFFFF;
+    stroke: #C7D8DC;
+    stroke-miterlimit: 10;
+}
+
+.st39 {
+    fill: #76283B;
+    stroke: #C7D8DC;
+    stroke-miterlimit: 10;
+}
+
+.st40 {
+    fill: #FFFFFF;
+    stroke: #C7D8DC;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st41 {
+    fill: #2B92D1;
+    stroke: #D85671;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st42 {
+    fill: none;
+    stroke: #C7D8DC;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st43 {
+    fill: #2B92D1;
+    stroke: #C7D8DC;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st44 {
+    fill: #D4ECF9;
+    stroke: #C7D8DC;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st45 {
+    fill: #C7D8DC;
+    stroke: #C7D8DC;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st46 {
+    fill: #B9CEDD;
+    stroke: #C7D8DC;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st47 {
+    fill: #94A5B3;
+    stroke: #C4D4D9;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st48 {
+    fill: #FFFFFF;
+    stroke: #C7D8DC;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st49 {
+    fill: #FFFFFF;
+    stroke: #121B39;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st50 {
+    fill: none;
+    stroke: #121B39;
+    stroke-miterlimit: 10;
+}
+
+.st51 {
+    fill: none;
+    stroke: #121B39;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st52 {
+    fill: none;
+    stroke: #121B39;
+    stroke-width: 0.5;
+    stroke-miterlimit: 10;
+}
+
+.st53 {
+    fill: #07151D;
+    stroke: #C4D4D9;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st54 {
+    fill: #C7D8DC;
+    stroke: #522412;
+    stroke-miterlimit: 10;
+}
+
+.st55 {
+    fill: none;
+    stroke: #522412;
+    stroke-width: 0.5;
+    stroke-miterlimit: 10;
+}
+
+.st56 {
+    fill: #E0378C;
+}
+
+.st57 {
+    fill: #317B39;
+}
+
+.st58 {
+    fill: #3875BA;
+}
+
+.st59 {
+    fill: #661115;
+}
+
+.st60 {
+    fill: none;
+    stroke: #340309;
+    stroke-miterlimit: 10;
+}
+
+.st61 {
+    fill: #340309;
+    stroke: #2250A1;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st62 {
+    fill: #94A5B3;
+    stroke: #C4D4D9;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st63 {
+    fill: #4B5AA6;
+    stroke: #C7D8DC;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st64 {
+    fill: #CB7AAE;
+    stroke: #C7D8DC;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st65 {
+    fill: url(#SVGID_4_);
+    stroke: #EBFCFF;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st66 {
+    fill: url(#SVGID_5_);
+    stroke: #CADCE0;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st67 {
+    fill: url(#SVGID_6_);
+    stroke: #CADCE0;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st68 {
+    fill: url(#SVGID_7_);
+    stroke: #EBFCFF;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st69 {
+    fill: url(#SVGID_8_);
+    stroke: #CADCE0;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st70 {
+    fill: url(#SVGID_9_);
+    stroke: #CADCE0;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st71 {
+    fill: none;
+    stroke: #D85671;
+    stroke-width: 0.5;
+    stroke-miterlimit: 10;
+}
+
+.st72 {
+    fill: none;
+    stroke: #D85671;
+    stroke-width: 0.5;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 6.9296, 3.4648, 6.9296, 3.4648;
+}
+
+.st73 {
+    fill: none;
+    stroke: #D85671;
+    stroke-width: 0.5;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 6.925, 3.4625, 6.925, 3.4625;
+}
+
+.st74 {
+    fill: none;
+    stroke: #C4D4D9;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st75 {
+    fill: url(#SVGID_10_);
+    stroke: #C4D4D9;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st76 {
+    fill: url(#SVGID_11_);
+    stroke: #C4D4D9;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st77 {
+    fill: url(#SVGID_12_);
+    stroke: #C4D4D9;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st78 {
+    fill: url(#SVGID_13_);
+    stroke: #C4D4D9;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st79 {
+    fill: url(#SVGID_14_);
+    stroke: #C4D4D9;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st80 {
+    fill: none;
+    stroke: #EEEC75;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st81 {
+    fill: #D7922E;
+    stroke: #FFFFFF;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st82 {
+    fill: url(#SVGID_15_);
+    stroke: #FFFFFF;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st83 {
+    fill: url(#SVGID_16_);
+    stroke: #FFFFFF;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st84 {
+    fill: url(#SVGID_17_);
+    stroke: #FFFFFF;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st85 {
+    fill: url(#SVGID_18_);
+    stroke: #FFFFFF;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st86 {
+    fill: url(#SVGID_19_);
+    stroke: #FFFFFF;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st87 {
+    fill: url(#SVGID_20_);
+    stroke: #FFFFFF;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st88 {
+    fill: url(#SVGID_21_);
+    stroke: #FFFFFF;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st89 {
+    fill: url(#SVGID_22_);
+    stroke: #FFFFFF;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st90 {
+    fill: #FFFFFF;
+    stroke: #CADCE0;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st91 {
+    fill: #D7922E;
+    stroke: #CADCE0;
+    stroke-width: 0.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.st92 {
+    fill: #231815;
+    stroke: #CADCE0;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    top: 0%;
+    z-index: 5;
+}
+
+.custom-shape-divider-top-1661155060 {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    line-height: 0;
+    display: block;
+    /* display: none; */
+}
+
+.headerBg {
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    content: "";
+    background-color: aliceblue;
+    display: block;
+    /* display: none; */
+}
+
+.custom-shape-divider-top-1661155060 svg {
+    position: relative;
+    display: block;
+    width: calc(135% + 1.3px);
+    height: 100%;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1661155060 .shape-fill {
+    fill: aliceblue;
+}
+
+.header_warp {
+    position: absolute;
+    width: 90%;
+    padding: 0% 5%;
+    clear: both;
+}
+
+.header_left {
+    width: 30%;
+    float: left;
+    margin: 1% 0%;
+    /* 로딩 시, 아래와 같이 img 위치 변화 후 원상복귀
+    text-align: end; */
+}
+
+.header_left>img {
+    width: 4rem;
+    /* 로딩 시, 아래와 같이 사이즈 변화 후 원상복귀
+     width: 8rem; */
+}
+
+.header_right {
+    width: 60%;
+    float: right;
+    margin: 1% 0%;
+}
+
+.header_menulist {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 0%;
+}
+
+.header_menulist>li>div {
+    width: 4rem;
+    text-align: center;
+    margin: 0% 5%;
+}
+
+.header_menulist_text {
+    font-family: 'yg-jalnan';
+    margin: 0%;
+    font-size: 0.8em;
+    color: #009FF5;
+    display: none;
+}
+
+.header_menulist>li>div:hover .header_menulist_text {
+    display: block;
+}
+
+.header_menulist>li>div>img {
+    width: 2rem;
+    height: 2rem;
+}
+
+main {
+    width: 100%;
+    height: calc(100vh - 5rem);
+    background-color: #009FF5;
+}
+
+.main_warp {
+    width: 90%;
+    height: 66%;
+    padding: 10% 5% 0 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_left {
+    width: 60%;
+    height: 85%;
+    padding: 2% 1% 2% 2%;
+}
+
+.main_left_mapBox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* main_left_mapBox영역의 svg */
+.main_left_mapBox>svg {
+    position: absolute;
+    width: 200%;
+    height: 130%;
+    top: -14%;
+    left: -55%;
+}
+
+/* 기존 이미지(감천 문화마을) 위치 수정 */
+.map_gamcheonCultureVillage {
+    translate: -2% -1%
+}
+
+/* 기존 이미지(새) 위치 수정 */
+.map_bird {
+    translate: -2%
+}
+
+.main_right {
+    width: 30%;
+    height: 85%;
+    padding: 2% 1% 2% 2%;
+    border: 1px palevioletred solid;
+}
+
+.main_right>div {
+    font-family: 'yg-jalnan';
+}
+
+section {
+    width: 100%;
+    margin: 0%;
+    /* margin-top: -1%; */
+    background-color: #009FF5;
+    padding: 0 0 2rem 0;
+}
+
+/* 
+section영역 */
+#list-body {
+    -ms-overflow-style: none;
+    overflow-y: scroll;
+    height: calc(100% - 5rem);
+}
+
+#list-body::-webkit-scrollbar {
+    display: none;
+}
+
+#list-header>ul {
+    padding: 0;
+    display: flex;
+}
+
+#list-header>ul>li {
+    text-align: center;
+    width: 100%;
+}
+
+#list-header>ul>li>a {
+    line-height: 5rem;
+    display: block;
+    background-color: #ebfcff;
+    color: #009FF5;
+    font-family: 'yg-jalnan';
+    font-size: 24px;
+    text-decoration: none;
+}
+
+#list-header>ul>li:nth-child(1)>a {
+    border-radius: 25px 0 0 0;
+}
+
+#list-header>ul>li:nth-child(5)>a {
+    border-radius: 0 25px 0 0;
+}
+
+#list-header>ul>li>a:hover {
+    background-color: white;
+    color: #E0952C;
+}
+
+#list {
+    background-color: white;
+    margin: auto;
+    width: 60%;
+    height: 85vh;
+    border-radius: 25px;
+}
+
+#list-header {
+    width: 100%;
+    height: 5rem;
+}
+
+#play-list {
+    margin: auto;
+    display: none;
+}
+
+#food-list {
+    margin: auto;
+    display: none;
+}
+
+#cafe-list {
+    margin: auto;
+    display: none;
+}
+
+#info-list {
+    margin: auto;
+    display: none;
+}
+
+#community-list {
+    padding: 5%;
+    margin: auto;
+    display: none;
+}
+
+#play-list>ul,
+#food-list>ul,
+#cafe-list>ul {
+    padding: 0 0 1rem 0;
+    display: flex;
+    border-bottom: 1px solid #eee;
+}
+
+#view-content {
+    padding: 2rem 0 1rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+#good {
+    width: 30%;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    margin: 1rem 0 5rem 0;
+}
+
+#comment {
+    margin: calc(5% - 6px);
+    width: 30%;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    margin: 1rem 0 5rem 0;
+}
+
+#share {
+    width: 30%;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    margin: 1rem 0 5rem 0;
+}
+
+#write-btn {
+    float: right;
+}
+
+#community-write {
+    float: right;
+    color: #009ff5;
+}
+
+#community-write:hover {
+    color: red;
+}
+
+#play-list>div {
+    width: 60%;
+    margin: 5rem auto;
+    display: flex;
+}
+
+#food-list>div {
+    width: 60%;
+    margin: 5rem auto;
+    display: flex;
+}
+
+#cafe-list>div {
+    width: 60%;
+    margin: 5rem auto;
+    display: flex;
+}
+
+.title-link>i {
+    display: none;
+}
+
+.title-img {
+    width: 9rem;
+    height: 7rem;
+    padding: 0 2rem 0 0;
+}
+
+.title-word {
+    font-family: 'yg-jalnan';
+}
+
+.title-word:hover {
+    color: #E0952C;
+}
+
+.title-link {
+    margin: 1rem 0 0 0;
+}
+
+.title-link>ul {
+    display: flex;
+}
+
+.title-link>ul>li {
+    margin: 0 5% 0 0;
+}
+
+.tag {
+    color: gray;
+}
+
+.kind_of {
+    display: none;
+}
+
+#topBtn {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 100;
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #EEE8A9;
+    border: 0.2rem solid #EEE8A9;
+    border-radius: 50%;
+    background-color: #1a93ca;
+    cursor: pointer;
+}
+
+/* index_from>footer() 영역 */
+/* >footer(/footer.php) 영역 */
+.footer {
+    background-color: #1a93ca;
+    width: 96%;
+    padding: 2%;
+    content: "";
+}
+
+.footer>div {
+    width: 94%;
+}
+
+.footer_top {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_top>p {
+    color: white;
+    margin-top: 0.5em;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.footerBtn {
+    content: "";
+    height: 3rem;
+    width: 3rem;
+    /* footerBtn_Ch 클릭시 변화 (회전)
+    transform: rotate( 0deg ) translate( 0% , 20% ); */
+
+    transform: rotate(-180deg) translate(-25%, 10%);
+    cursor: pointer;
+}
+
+.footerBtn_Ch {
+    content: "";
+    position: relative;
+    width: 1.5rem;
+    height: 0.4rem;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    transform: rotate(-45deg) translate(-13%, 170%);
+
+}
+
+.footerBtn_Ch::after {
+    content: "";
+    position: absolute;
+    width: 1.5rem;
+    height: 0.4rem;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    transform: rotate(-90deg) translate(-30%, 100%);
+}
+
+.footer_center {
+    color: white;
+    display: none;
+    margin-bottom: 1rem;
+}
+
+.footer_center>ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline-start: 0%;
+    color: white;
+    list-style: none;
+}
+
+.footer_center>ul>li>a {
+    color: white;
+}
+
+.footer_bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer_bottom>ul {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline-start: 0%;
+    color: white;
+    list-style: none;
+}
+
+.footer_bottom>ul>li>a {
+    color: white;
+}
+
+
+@media all and (max-width:1080px) {
+    #list {
+        width: 80%;
+    }
+}
+
+@media all and (max-width:1024px) {
+
+    /* 태블릿 사이즈 1024로 변환시, main 세로정열 */
+    .main_warp {
+        /* height: 85%; */
+        /* margin-top: 5%; */
+        flex-direction: column-reverse;
+        background-color: #384955;
+    }
+
+    .main_left {
+        width: 100%;
+        height: 60%;
+    }
+
+    .main_right {
+        width: 100%;
+        height: 20%;
+    }
+}
+
+@media all and (max-width:890px) {
+    .main_warp {
+        padding: 15% 5% 5% 5%;
+    }
+
+    .main_left {
+        width: 100%;
+        height: 60%;
+    }
+
+    .main_right {
+        width: 100%;
+        height: 20%;
+    }
+}
+
+@media all and (max-width:690px) {
+    main {
+        height: calc(100vh - 5rem);
+    }
+
+    .main_warp {
+        padding: 10% 5% 5% 5%;
+    }
+
+    .main_left {
+        width: 100%;
+        height: 50%;
+    }
+
+    .main_right {
+        width: 100%;
+        height: 20%;
+    }
+
+    #list {
+        width: 100%;
+    }
+
+    #play-list {
+        width: 75%;
+    }
+
+    #food-list {
+        width: 75%;
+    }
+
+    #cafe-list {
+        width: 75%;
+    }
+
+    #play-list>div {
+        display: inline;
+    }
+
+    #food-list>div {
+        display: inline;
+    }
+
+    #cafe-list>div {
+        display: inline;
+    }
+
+    .title-img {
+        margin: 3rem 0 1rem 0;
+        width: 100%;
+        height: 50%;
+    }
+
+    .title-link>ul {
+        margin: 1rem 0 0 0;
+    }
+
+    .title-link>i {
+        color: gray;
+        font-size: 40px;
+        display: block;
+        float: right;
+        margin: 0 2rem 5rem 0;
+    }
+
+    .title-link>i:hover {
+        color: red;
+    }
+
+    .kind_of {
+        display: block;
+    }
+}
+
+@media all and (max-width:590px) {
+    .main_left {
+        width: 100%;
+        height: 50%;
+    }
+
+    .main_right {
+        width: 100%;
+        height: 20%;
+    }
+}
+
+@media all and (max-width:468px) {
+    #list-header>ul>li>a {
+        font-size: 16px;
+    }
+}

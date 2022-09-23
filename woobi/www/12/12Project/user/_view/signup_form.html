@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/signup_form.css">
+    <link rel="icon" type="image/x-icon" href="https://i.ibb.co/QcyRTbG/wt.png">
+    <title>ȸ������</title>
+</head>
+<body> 
+    <div class="loginPage">
+        <!-- ȸ������ ������ Background  -->
+        <div class="loginBg">
+            <div class="loginPage_bgTop">
+                <div class="loginPage_bgHeader">
+                </div>
+                <div class="loginPage_bgCenter">
+                    <svg class="loginPage_bgWaves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                        <defs>
+                            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                        </defs>
+                        <g class="parallax">
+                            <use xlink:href="#gentle-wave" x="48" y="0" fill="#009FF5" />
+                            <use xlink:href="#gentle-wave" x="48" y="3" fill="#18ACED" />
+                            <use xlink:href="#gentle-wave" x="48" y="5" fill="#15D4ED" />
+                            <use xlink:href="#gentle-wave" x="48" y="7" fill="#EEE8A9" />
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div class="loginPage_bgFooter">
+            </div>
+        </div>
+        <!-- ��� �ΰ�����  -->
+        <div class="loginTopWrap">
+            <div class="loginTopWrap_logo">
+                <img src="https://i.ibb.co/V34gRJK/wtR-wsb.png" alt="wt_�ΰ�">
+                <div class="loginTop_home">
+                    Ȩ���� !
+                </div>
+            </div>
+            <p>want to :: 12</p>
+        </div>
+        <!-- �α��� ���ο��� -->
+        <!-- loginWrapBg: loginWrap�� ���κ� (�α��� ���ο���(loginWrap)�� Ű���� loginWrapBg�� opacity ����) -->
+        <div class="loginWrapBg"></div>
+        <div class="loginWrap">
+            <div class="loginWarp_in">
+                <header class="login_Header">
+                    <h2>wt::12 ȸ������</h2>
+                </header>
+                <section class="login_center">
+                    <form class="loginFormBox" action="sign_up_ok.php" method="post">
+                        <div class="user_inputTop1">
+                            <label for="userId">���̵�</label>
+                            <button>���̵� �ߺ�üũ</button>
+                        </div>
+                        <div class="userIdWrap">
+                            <input name="userId" class="userIdBox" type="text" placeholder="���̵� �Է��ϼ���">
+                        </div>
+                        <div class="user_inputTop">
+                            <label for="userPw">��й�ȣ</label>
+                        </div>
+                        <div class="userPwWrap">
+                            <input name="userPw" class="userPwBox" type="password" placeholder="��й�ȣ�� �Է��ϼ���">
+                        </div>
+                        <div class="user_inputTop">
+                            <label for="userPwCheck">��й�ȣ Ȯ��</label>
+                        </div>
+                        <div class="userPwCheckWrap">
+                            <input name="userPwCheck" class="userPwCheckBox" type="password" placeholder="��й�ȣ�� �ٽ� �Է��ϼ���">
+                        </div>
+                        <div class="uesr_inputTop">
+                            <label for="userName">�̸�</label>
+                        </div>
+                        <div class="userNameWrap">
+                            <input name="userName" class="userNameBox" type="text" placeholder="�̸� �Է��ϼ���">
+                        </div>
+                        <div class="user_inputTop1">
+                            <label for="userPhon">�޴���ȭ</label>
+                            <button>�����ϱ�</button>
+                        </div>
+                        <div class="userPhonWrap">
+                            <input name="userPhon" class="userPhonBox" type="tel" placeholder="�޴���ȭ��ȣ�� �Է��ϼ���">
+                        </div>
+                        <div class="user_inputTop">
+                            <label for="userEmail">�̸���</label>
+                        </div>
+                        <div class="userEmailWrap">
+                            <input name="userEmail" class="userEmailBox" type="email" placeholder="�̸����ּҸ�  �Է��ϼ���">
+                        </div>
+                        <button class="loginButton" type="submit">ȸ������</button>                                                       
+                    </form>
+                </section>
+            </div>
+        </div>
+        <footer class="loginBottomWrap">
+            <p>Copyright 12 COMPANY Corp. All rights Reserved</p>
+        </footer>
+    </div>  
+
+</body>
+</html>

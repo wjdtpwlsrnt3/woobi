@@ -1,0 +1,42 @@
+#container {
+    margin: auto;
+    width: 80%;
+}
+
+form {
+    margin: auto;
+    width: 60%;
+}
+
+form>div {
+    margin: 5px;
+}
+
+#header {
+    padding: 40px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+.category {
+    border-left: 1px solid black;
+}
+
+@media (max-width : 480px) {
+    form {
+        width: 100%;
+    }
+}
+
+@media (max-width : 1000px) {
+    form {
+        width: 100%;
+    }
+}

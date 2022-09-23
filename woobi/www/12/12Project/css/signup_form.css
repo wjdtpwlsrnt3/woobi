@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html,body{
+    margin: 0;
+    padding: 0; 
+    width: 100%;
+    height: 100%;
+    font-family: 'Do Hyeon', sans-serif;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+/* ȸ������ ������ Background */
+/* (�α��������� & ���������������� �Ϻε���) */
+.loginPage {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.loginBg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* opacity: 80%; */
+}
+.loginPage_bgTop {
+    /* �α��������� & ����������������
+     height �� ������ */
+    height: 28%; 
+    width: 100%;
+    background: linear-gradient(60deg, #009FF5 0%, #59B3A7 100%);
+}
+.loginPage_bgHeader {
+    content: "";
+    height: 80%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.loginPage_bgCenter {
+    content: "";
+    position: relative;
+    width: 100%;
+    height: 20%;
+}
+.loginPage_bgWaves {
+    
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    margin-bottom:-7px; /*Fix for safari gap*/
+}
+.loginPage_bgFooter {
+    /* �α��������� & ����������������
+     height �� ������ */
+    content: "";
+    height: 70%;
+    width: 100%;
+    background-color: #EEE8A9;
+}
+/* ȸ������ ������ Background Animation */
+/* (�α��������� & ���������������� ����) */
+.parallax > use {
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px,0,0);
+    }
+    100% { 
+        transform: translate3d(85px,0,0);
+    }
+}
+/* ��� �ΰ����� */
+/* (�α��������� & ���������������� ����) */
+.loginTopWrap {
+    top: 10%;
+    left: 41.5%;
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    text-align: center;
+}
+.loginTopWrap>p {
+    margin: 0%;
+    font-family: 'yg-jalnan';
+    color: #EBFCFF;
+    cursor: pointer;
+}
+.loginTopWrap_logo>img {
+    width: 3rem;
+    cursor: pointer;
+}
+.loginTop_home {
+    top: -5%;
+    left: 70%;
+    font-family: 'yg-jalnan';
+    color: #EBFCFF;
+    font-size: smaller;
+    position: absolute;
+    transform: rotate(-10deg);
+    display: none;
+}
+.loginTopWrap_logo:hover .loginTop_home {
+    display: block;
+}
+/* ȸ������ ���ο��� */
+/* ȸ������ ���ο���(loginWrap)�� Ű���� loginWrapBg�� opacity ���� */
+/* (�α��������� & ���������������� �Ϻε���) */
+.loginWrapBg {
+    content: "";
+    top: 22%;
+    left: 42%;
+    width: 17.5rem;
+    height: 29rem;
+    background-color: aliceblue;
+    position: absolute;
+    border: 1px solid transparent;
+    border-radius: 5%;
+    padding: 2%;
+    opacity: 30%;
+}
+
+.loginWrap {
+    top: 22%;
+    left: 42%;
+    width: 17.5rem;
+    height: 29rem;
+    position: absolute;
+    border: 1px solid transparent;
+    border-radius: 5%;
+    padding: 1% 2%;
+}
+.loginWrap_in {
+    content: "";
+    width: 98%;
+    height: 98%;
+    padding: 2%;
+}
+.login_Header {
+    padding: 2% 2%;
+    text-align: right;
+}
+.login_Header>h2 {
+    font-family: 'yg-jalnan';
+    font-size: x-small;
+    color: #009FF5;
+    margin: 0%;
+}
+
+.login_center {
+    padding: 2%;
+}
+.loginFormBox {
+    display: flex;
+    flex-direction: column;
+    color: #E0952C;
+}
+/* �α��������� & ����������������
+������(�߰���) */
+.uesr_inputTop {
+    width: 98%;
+    height: 1rem;
+    padding-top: 2%;
+    display: flex;
+}
+.user_inputTop1 {
+    width: 98%;
+    height: 1rem;
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user_inputTop1>button {
+    font-family: 'yg-jalnan';
+    font-size: 8pt;
+    font-weight: 10;
+    letter-spacing: 2px;
+    background-color: #E0952C;
+    border-radius: 15px;
+    color: #EBFCFF;
+    border: transparent solid 1px;
+    cursor: pointer;
+}
+/* �α��������� & ����������������
+margin �� ������ */
+.loginFormBox>div>label {
+
+    font-size: smaller;
+}
+.loginFormBox>div {
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+/* �α��������� & ����������������
+margin �� ������ */
+.userIdWrap, .userPwWrap
+,.userPwCheckWrap,.userPhonWrap
+,.userEmailWrap, .userNameWrap {
+    margin-bottom: 2%;
+    width: 98%;
+    height: 1.5rem;
+    padding-top: 2%;
+    background-color: #EBFCFF;
+    border-radius: 5px;
+    border: #E0952C solid 1px;
+    text-align: center;
+}
+.loginFormBox>div>input {
+    border: transparent;
+    background-color: #EBFCFF;
+    width: 80%;
+    height: 1rem;
+}
+.loginButton {
+    margin-top: 10%;
+    width: 98%;
+    padding: 2%;
+    border: transparent;
+    border-radius: 5px;
+    background-color: #E0952C;
+    color: #EBFCFF;
+    font-family: 'yg-jalnan';
+    cursor: pointer;
+    letter-spacing: 2pt;
+}
+
+/* �ϴ� footer */
+.loginBottomWrap {
+    top: 92%;
+    left: 41.5%;
+    width: 20%;
+    height: 5%;
+    position: absolute;
+    font-size: x-small;
+    text-align: center;
+    color: rgb(151, 151, 151); 
+}
+@media all and (max-width:1890px) {
+    /* ��� �ΰ����� */
+    .loginTopWrap {
+        left: 41.5%;
+    }
+    /* �ϴ� footer */
+    .loginBottomWrap {
+        left: 41.5%;
+    }
+}
+
+@media all and (max-width:1690px) {
+    /* �α��� ���ο��� */
+    .loginWrapBg {
+        left: 40%;
+        height: 30rem;
+    }
+    .loginWrap {
+        left: 40%;
+       height: 30rem;        
+    }
+}
+
+@media all and (max-width:1590px) {
+    /* ��� �ΰ����� */
+    .loginTopWrap {
+        left: 39.5%;
+    }
+    /* �α��� ���ο��� */
+    .loginWrapBg {
+        left: 38%;
+    }
+    .loginWrap {
+        left: 38%;
+    }
+    /* �ϴ� footer */
+    .loginBottomWrap {
+        left: 39.5%;
+    }   
+}
+@media all and (max-width:1390px) {
+    /* ��� �ΰ����� */
+    .loginTopWrap {
+        left: 40.5%;
+    }
+    /* �α��� ���ο��� */
+    .loginWrapBg {
+        left: 38%;
+    }
+    .loginWrap {
+        left: 38%;
+    }
+    /* �ϴ� footer */
+    .loginBottomWrap {
+        left: 40.5%;
+    }   
+}
+@media all and (max-width:1290px) {
+    /* �α��� ���ο��� */
+    .loginWrapBg {
+        left: 36%;
+    }
+    .loginWrap {
+        left: 36%;
+    }
+}
+
+@media all and (max-width:1080px) {
+    /* �α��� ���ο��� */
+    .loginWrapBg {
+        left: 34%;
+    }
+    .loginWrap {
+        left: 34%;
+    }
+}
+
+@media all and (max-width:1024px) {
+    /* ��� �ΰ����� */
+    .loginTopWrap {
+        left: 39.5%;
+    }
+    /* �α��� ���ο��� */
+    .loginWrapBg {
+        left: 32%;
+    }
+    .loginWrap {
+        left: 32%;
+    }
+    /* �ϴ� footer */
+    .loginBottomWrap {
+        left: 39.5%;
+    }
+}
+
+
+@media all and (max-width:890px) {
+    /* ��� �ΰ����� */
+    .loginTopWrap {
+        left: 40.5%;
+    }
+    .loginTop_home {
+        width: 100%;
+    }
+    /* �α��� ���ο��� */
+    .loginWrapBg {
+        height: 31rem;
+    }
+    .loginWrap {
+        height: 31rem;
+    }
+    /* �ϴ� footer */
+    .loginBottomWrap {
+        left: 40.5%;
+    }
+}
+@media all and (max-width:790px) {
+    /* �α��� ���ο��� */
+    .loginWrapBg {
+        left: 30%;
+    }
+    .loginWrap {
+        left: 30%;
+    }
+}
+
+@media all and (max-width:690px) {
+    /* ��� �ΰ����� */
+    .loginTopWrap {
+        top: 5%;
+        left: 43%;
+    }
+    /* �α��� ���ο��� */
+    .loginWrapBg {
+        top: 18%;
+        left: 29%;
+        width: 19.5rem;
+        height: 33rem;
+    }
+    .loginWrap {
+        top: 18%;
+        left: 29%;
+        width: 19.5rem;
+        height: 33rem;
+    }
+    /* �ϴ� footer */
+    .loginBottomWrap {
+        top: 90%;
+        left: 43%;
+    }
+    
+}
+
+@media all and (max-width:640px) {
+    /* ��� �ΰ����� */
+    .loginTopWrap {
+        left: 44%;
+    }
+    /* �α��� ���ο��� */
+    .loginWrapBg {
+        left: 25%;
+        width: 20.5rem;
+    }
+    .loginWrap {
+        left: 25%;
+        width: 20.5rem;
+    }
+    /* �ϴ� footer */
+    .loginBottomWrap {
+        left: 44%;
+    }
+    
+}
+
+@media all and (max-width:590px) {
+    /* ��� �ΰ����� */
+    .loginTopWrap {
+        left: 41%;
+    }
+    .loginTop_home {
+        width: 100%;
+    }
+    /* �α��� ���ο��� */
+    .loginWrapBg {
+        left: 17.5%;
+        width: 22.5rem;
+        height: 35rem;
+    }
+    .loginWrap {
+        left: 17.5%;
+        width: 22.5rem;
+        height: 35rem;
+    }
+    /* �ϴ� footer */
+    .loginBottomWrap {
+        left: 41%;
+        bottom: 0%;
+    }
+
+}
+@media all and (max-width:540px) {
+    /* �α��� ���ο��� */
+    .loginWrapBg {
+        left: 14%;
+        width: 22.5rem;
+    }
+    .loginWrap {
+        left: 14%;
+        width: 22.5rem;
+    }
+}
+@media all and (max-width:490px) {
+    /* ��� �ΰ����� */
+    .loginTopWrap {
+        left: 40%;
+    }
+    /* �α��� ���ο��� */
+    .loginWrapBg {
+        left: 4%;
+        width: 25.5rem;
+        height: 37.5rem;
+    }
+    .loginWrap {
+        left: 4%;
+        width: 25.5rem;
+        height: 37.5rem;
+    }
+    .login_subWrap_2 {
+        top: 44%;
+    }
+    /* �ϴ� footer */
+    .loginBottomWrap {
+        left: 34%;
+        width: 30%;
+    }
+}
+
+@media all and (max-width:468px) {
+    /* ��� �ΰ����� */
+    .loginTopWrap {
+        left: 39%;
+    }
+    /* �α��� ���ο��� */
+    .loginWrapBg {
+        left: 6%;
+        width: 87.5%;
+        height: 37rem;
+    }
+    .loginWrap {
+        left: 6%;
+        width: 87.5%;
+        height: 37rem;
+    }
+}
